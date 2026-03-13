@@ -25,7 +25,7 @@ The **LPC2148**, developed by NXP Semiconductors (Philips), is a 16/32-bit ARM7-
 - On-chip **SRAM**: 8 KB – 40 KB  
 - **ISP/IAP** via on-chip bootloader  
 - **Embedded ICE-RT** and **Real Monitor** for real-time debugging  
-- **USB 2.0** full-speed device controller with 2 KB endpoint RAM  
+- **USB 2.0** full-speed device controller witth 2 KB endpoint RAM  
 - **10-bit ADC** (6 or 14 channels, 2.44 μs conversion time)  
 - **10-bit DAC** for analog output  
 - **Timers:** Two 32-bit timers, watchdog, and PWM unit  
@@ -74,6 +74,7 @@ The **LPC2148**, developed by NXP Semiconductors (Philips), is a 16/32-bit ARM7-
 
 10. Link the **HEX file** using the post-build process.
     <img width="1053" height="465" alt="image" src="https://github.com/user-attachments/assets/478187a0-0ee6-4c50-9cac-c3b5ee18521b" />
+"https://github.com/user-attachments/assets/478187a0-0ee6-4c50-9cac-c3b5ee18521b" />
 
 11. Click **Debug** and connect the **STM Nucleo Board**.
     <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/f72fff44-6073-4ae4-aa78-0da455df9af1" />
@@ -110,7 +111,13 @@ int main(void)
 ### OUTPUT
 CASE 1: LED ON 
 
+
+<img width="946" height="365" alt="image" src="https://github.com/user-attachments/assets/dbfe2e16-b441-41dc-9818-3cebd8528c97" />
+
 CASE 2: LED OFF
+
+
+<img width="880" height="394" alt="image" src="https://github.com/user-attachments/assets/659d119f-75db-4686-bf66-f8d7fe585905" />
 
 ---
 ### RESULT
